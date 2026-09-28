@@ -243,6 +243,18 @@ func (c *Cell) AddEmptyPara() *Paragraph {
 	return p
 }
 
+// Add empty table and returns Table
+func (c *Cell) AddTable() *Table {
+	t := NewTable(c.root)
+	tblContent := ctypes.TCBlockContent{
+		Table: &t.ct,
+	}
+
+	c.ct.Contents = append(c.ct.Contents, tblContent)
+
+	return t
+}
+
 // ColSpan sets the number of columns a cell should span across in a table.
 func (c *Cell) ColSpan(cols int) *Cell {
 	if c.ct.Property != nil {
