@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gomutex/godocx/common/units"
+	"github.com/crashedump/godocx/common/units"
 )
 
 func TestNewPSize2D(t *testing.T) {

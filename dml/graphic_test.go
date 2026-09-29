@@ -4,12 +4,12 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/gomutex/godocx/common/constants"
-	"github.com/gomutex/godocx/dml/dmlct"
-	"github.com/gomutex/godocx/dml/dmlpic"
-	"github.com/gomutex/godocx/dml/dmlprops"
-	"github.com/gomutex/godocx/dml/dmlst"
-	"github.com/gomutex/godocx/dml/shapes"
+	"github.com/crashedump/godocx/common/constants"
+	"github.com/crashedump/godocx/dml/dmlct"
+	"github.com/crashedump/godocx/dml/dmlpic"
+	"github.com/crashedump/godocx/dml/dmlprops"
+	"github.com/crashedump/godocx/dml/dmlst"
+	"github.com/crashedump/godocx/dml/shapes"
 )
 
 func TestMarshalGraphic(t *testing.T) {

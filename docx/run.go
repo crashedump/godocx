@@ -1,8 +1,8 @@
 package docx
 
 import (
-	"github.com/gomutex/godocx/wml/ctypes"
-	"github.com/gomutex/godocx/wml/stypes"
+	"github.com/crashedump/godocx/wml/ctypes"
+	"github.com/crashedump/godocx/wml/stypes"
 )
 
 type Run struct {

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gomutex/godocx/wml/stypes"
+	"github.com/crashedump/godocx/wml/stypes"
 )
 
 func TestSectionProp_MarshalXML(t *testing.T) {

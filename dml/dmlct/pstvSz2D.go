@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"strconv"
 
-	"github.com/gomutex/godocx/common/units"
+	"github.com/crashedump/godocx/common/units"
 )
 
 // Complex Type: CT_PositiveSize2D
