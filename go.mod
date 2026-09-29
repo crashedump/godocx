@@ -1,8 +1,11 @@
-module github.com/gomutex/godocx
+module github.com/crashedump/godocx
 
 go 1.18
 
-require github.com/stretchr/testify v1.9.0
+require (
+	github.com/crashedump/godocx v0.1.5
+	github.com/stretchr/testify v1.9.0
+)
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect

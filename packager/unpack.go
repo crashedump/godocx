@@ -7,10 +7,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/gomutex/godocx/common/constants"
-	"github.com/gomutex/godocx/docx"
-	"github.com/gomutex/godocx/internal"
-	"github.com/gomutex/godocx/wml/ctypes"
+	"github.com/crashedump/godocx/common/constants"
+	"github.com/crashedump/godocx/docx"
+	"github.com/crashedump/godocx/internal"
+	"github.com/crashedump/godocx/wml/ctypes"
 )
 
 // ReadFromZip reads files from a zip archive.

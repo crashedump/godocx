@@ -7,14 +7,14 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gomutex/godocx/common/constants"
-	"github.com/gomutex/godocx/common/units"
-	"github.com/gomutex/godocx/dml"
-	"github.com/gomutex/godocx/dml/dmlct"
-	"github.com/gomutex/godocx/dml/dmlpic"
-	"github.com/gomutex/godocx/internal"
-	"github.com/gomutex/godocx/wml/ctypes"
-	"github.com/gomutex/godocx/wml/stypes"
+	"github.com/crashedump/godocx/common/constants"
+	"github.com/crashedump/godocx/common/units"
+	"github.com/crashedump/godocx/dml"
+	"github.com/crashedump/godocx/dml/dmlct"
+	"github.com/crashedump/godocx/dml/dmlpic"
+	"github.com/crashedump/godocx/internal"
+	"github.com/crashedump/godocx/wml/ctypes"
+	"github.com/crashedump/godocx/wml/stypes"
 )
 
 // Paragraph represents a paragraph in a DOCX document.
